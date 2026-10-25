@@ -103,6 +103,8 @@ python -m unittest discover -s tests -v
 
 **31 tests passed on Windows**, including a real hard-link/undo roundtrip, changed files, destination conflicts, interrupted move/undo recovery, model failure, output validation and local HTTP access checks. Model-unit tests use explicit test doubles; the separate inference evidence is an actual Llama run. Other operating systems are not yet qualified.
 
+An optional GitHub Actions test matrix is supplied as `docs/test-workflow.yml`. It is a template, not an active workflow: the publishing connection does not have workflow-management scope. Local test evidence above is independent of CI.
+
 ## New work and attribution
 
 Created on **October 25, 2026** for [Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady](https://dev.to/challenges/hacktoberfest-week3-2026-10-19). This is a **new standalone application and repository**, inspired by our earlier [Kshetrajna](https://github.com/Team-SankatMochan/KSHETRAJNA-OS) project. It does not present that older application as new work. No source files or model weights were copied from that repository; the Observe → Explain → Approve → Act → Recover approach and branding are credited to it.

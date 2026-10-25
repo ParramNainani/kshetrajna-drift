@@ -18,17 +18,19 @@ The final category matters. Sometimes the laziest sensible action is to leave so
 
 ## Demo
 
-The package includes `evidence/walkthrough.gif`: a recorded walkthrough made from seven actual browser UI snapshots. Waiting is condensed. The files are synthetic, but the inference, approved move and undo are real.
+![Recorded walkthrough of Kshetrajna Drift](https://raw.githubusercontent.com/ParramNainani/kshetrajna-drift/codex/initial-build/evidence/walkthrough.gif)
+
+[Watch the recorded walkthrough](https://github.com/ParramNainani/kshetrajna-drift/blob/codex/initial-build/evidence/walkthrough.gif): seven actual browser UI snapshots, with waiting condensed. The files are synthetic, but the inference, approved move and undo are real.
 
 The walkthrough shows a client handover brief going to Work, revision notes to Study, a payment receipt to Receipts, a bird article to Read Later, and a picnic note to Personal. An ambiguous note containing “blue / maybe next time / 42” stays where it is. I then move the receipt and undo it.
 
 Run the same demo with `python app.py --demo`. It creates a disposable copy of the six bundled samples and leaves personal Downloads alone.
 
-**Draft publication note:** add the public source and recorded-demo links here before publishing. Those uploads require a separate approval; this draft does not claim they are already online.
-
 ## Code
 
-The new standalone source package contains the Python application, dependency-free browser interface, six fixtures, tests, setup guide, license and measured evidence. The code is MIT licensed. The public repository link is pending publication approval.
+**[Source code: Kshetrajna Drift](https://github.com/ParramNainani/kshetrajna-drift)**
+
+The new standalone repository contains the Python application, dependency-free browser interface, six fixtures, tests, setup guide, license and measured evidence. The code is MIT licensed. [Download the source ZIP](https://github.com/ParramNainani/kshetrajna-drift/archive/refs/heads/codex/initial-build.zip) and follow the README to run locally.
 
 **Credit:** Drift is inspired by our existing [Kshetrajna project](https://github.com/Team-SankatMochan/KSHETRAJNA-OS), especially its Observe → Explain → Approve → Act → Recover approach. This is a new application created on October 25, not the older application presented as fresh work. No source files were copied from that repository.
 
@@ -70,7 +72,7 @@ Ollama is open-source software. Llama 3.1 is **open-weight under Meta's Communit
 
 ## The Lazy Payoff
 
-The first six-file plan took **17.56 seconds**. All five filing choices and the Keep-here decision matched the intended sample purposes. A second recorded walkthrough run took **15.24 seconds**. After moving and undoing the receipt, all six originals matched their fixture SHA-256 hashes.
+The [first six-file plan](https://github.com/ParramNainani/kshetrajna-drift/blob/codex/initial-build/evidence/local-inference.json) took **17.56 seconds**. All five filing choices and the Keep-here decision matched the intended sample purposes. A second recorded walkthrough run took **15.24 seconds**. After moving and undoing the receipt, [all six originals matched their fixture SHA-256 hashes](https://github.com/ParramNainani/kshetrajna-drift/blob/codex/initial-build/evidence/ui-roundtrip.json).
 
 This is a small synthetic demonstration, not a measured claim about hours saved or general classification accuracy. It shows the interaction I wanted: let the machine read the small pile, review one clear plan, and go back to something more interesting.
 
