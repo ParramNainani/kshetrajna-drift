@@ -1,0 +1,6 @@
+PAYMENT RECEIPT
+Campus Bookshop
+Date: 2026-10-20
+Items: Linear Algebra workbook and two notebooks
+Total paid: INR 740
+Transaction complete. Keep this receipt for reimbursement.

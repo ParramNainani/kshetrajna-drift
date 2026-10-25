@@ -1,0 +1,5 @@
+.drift-local/
+__pycache__/
+*.pyc
+.codebase-memory/
+.venv/

@@ -1,0 +1,61 @@
+{
+  "project": "Kshetrajna Drift",
+  "fixture": "six bundled synthetic text files",
+  "inference": {
+    "model": "llama3.1:8b",
+    "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+    "seconds": 17.56,
+    "generated_tokens": 259,
+    "prompt_tokens": 678,
+    "runtime": "Ollama / loopback only",
+    "recorded_at": "2026-10-25T18:15:37Z"
+  },
+  "excerpts_enabled": true,
+  "filing_preference": "Group by purpose, not file type. Keep uncertain files where they are.",
+  "fixture_expectations_matched": 6,
+  "decisions": [
+    {
+      "id": "f1",
+      "name": "draft_v3.txt",
+      "bucket": "work",
+      "reason": "The excerpt mentions 'Client website handover' and 'Project: Cedar Studio', indicating it's related to work.",
+      "destination": "_Drift\\Work\\draft_v3.txt"
+    },
+    {
+      "id": "f2",
+      "name": "notes_final.md",
+      "bucket": "study",
+      "reason": "The excerpt explicitly states 'These are university study notes, not client work.'",
+      "destination": "_Drift\\Study\\notes_final.md"
+    },
+    {
+      "id": "f3",
+      "name": "saved_17.md",
+      "bucket": "reading",
+      "reason": "The excerpt mentions 'Saved for leisure reading' and has a title '# To read on a quiet Sunday', indicating it's for personal reading.",
+      "destination": "_Drift\\Read Later\\saved_17.md"
+    },
+    {
+      "id": "f4",
+      "name": "scan_0042.txt",
+      "bucket": "receipts",
+      "reason": "The excerpt is a payment receipt with details about the transaction, including date, items purchased, and total paid.",
+      "destination": "_Drift\\Receipts\\scan_0042.txt"
+    },
+    {
+      "id": "f5",
+      "name": "untitled.txt",
+      "bucket": "keep",
+      "reason": "The excerpt contains ambiguous content ('blue', 'maybe next time', '42') that doesn't clearly indicate its purpose or category.",
+      "destination": null
+    },
+    {
+      "id": "f6",
+      "name": "weekend.txt",
+      "bucket": "personal",
+      "reason": "The excerpt mentions 'Birthday picnic for Mira' and 'Personal planning notes', indicating it's related to personal plans.",
+      "destination": "_Drift\\Personal\\weekend.txt"
+    }
+  ],
+  "limitations": "One six-file fixture, not a general accuracy or time-saved benchmark. The application performed real local inference."
+}

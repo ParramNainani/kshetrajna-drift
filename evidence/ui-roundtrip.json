@@ -1,0 +1,13 @@
+{
+  "verification": "Browser UI receipt move and undo, followed by SHA-256 comparison of all six original files",
+  "all_six_original_files_restored": true,
+  "hashes": {
+    "draft_v3.txt": "c3e463a5c833b46b7e4236bc760005478c041819c8a69777f687f77e57b4fd4f",
+    "notes_final.md": "15eef69f0bc9c4a44b33ff9101ec9c5b1e50300bae6ad24a060854cf1f6c4491",
+    "saved_17.md": "c9912357fd4d56acfcfdbdd52f3b66d5be0be6e644140047c768878d33ef1f57",
+    "scan_0042.txt": "7f1b6af6024cc7ab0fbf43d80d22df68c98bd29a26ff09d2c583a7e83d17f1ed",
+    "untitled.txt": "e03a7478c42a936df97b138c674710726c511cb3eabdcc744e975ae2dba95873",
+    "weekend.txt": "98e94188f4f0d2f643a0ac429d9c12316586baeac1d770ff303e256ad267d640"
+  },
+  "scope": "Bundled synthetic fixtures only; no personal Downloads were used."
+}

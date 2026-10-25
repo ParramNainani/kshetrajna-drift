@@ -1,0 +1,36 @@
+test_rejects_invalid_model_decisions (test_drift.ModelValidationTests.test_rejects_invalid_model_decisions) ... ok
+test_valid_items (test_drift.ModelValidationTests.test_valid_items) ... ok
+test_batch_limit_is_visible (test_drift.OrganizerTests.test_batch_limit_is_visible) ... ok
+test_changed_file_invalidates_entire_batch (test_drift.OrganizerTests.test_changed_file_invalidates_entire_batch) ... ok
+test_collision_does_not_overwrite (test_drift.OrganizerTests.test_collision_does_not_overwrite) ... ok
+test_excerpts_opt_in_and_bounded (test_drift.OrganizerTests.test_excerpts_opt_in_and_bounded) ... ok
+test_failed_link_preserves_source_and_journal (test_drift.OrganizerTests.test_failed_link_preserves_source_and_journal) ... ok
+test_interrupted_undo_is_recovered (test_drift.OrganizerTests.test_interrupted_undo_is_recovered) ... ok
+test_keep_cannot_be_moved (test_drift.OrganizerTests.test_keep_cannot_be_moved) ... ok
+test_model_failure_never_falls_back_to_rules (test_drift.OrganizerTests.test_model_failure_never_falls_back_to_rules) ... ok
+test_move_and_undo_preserves_bytes (test_drift.OrganizerTests.test_move_and_undo_preserves_bytes) ... ok
+test_no_recursive_scan (test_drift.OrganizerTests.test_no_recursive_scan) ... ok
+test_only_selected_files_move (test_drift.OrganizerTests.test_only_selected_files_move) ... ok
+test_path_escape_rejected (test_drift.OrganizerTests.test_path_escape_rejected) ... ok
+test_plan_expiry (test_drift.OrganizerTests.test_plan_expiry) ... ok
+test_plan_single_use (test_drift.OrganizerTests.test_plan_single_use) ... ok
+test_recovery_keeps_unresolved_conflict_visible (test_drift.OrganizerTests.test_recovery_keeps_unresolved_conflict_visible) ... ok
+test_recovery_recognizes_completed_move (test_drift.OrganizerTests.test_recovery_recognizes_completed_move) ... ok
+test_recovery_rolls_back_interrupted_link (test_drift.OrganizerTests.test_recovery_rolls_back_interrupted_link) ... ok
+test_symlink_source_rejected_when_supported (test_drift.OrganizerTests.test_symlink_source_rejected_when_supported) ... ok
+test_temporary_download_and_recent_file_skipped (test_drift.OrganizerTests.test_temporary_download_and_recent_file_skipped) ... ok
+test_undo_refuses_changed_destination (test_drift.OrganizerTests.test_undo_refuses_changed_destination) ... ok
+test_undo_refuses_occupied_original_name (test_drift.OrganizerTests.test_undo_refuses_occupied_original_name) ... ok
+test_api_requires_session (test_http.HttpTests.test_api_requires_session) ... ok
+test_bad_payload_is_rejected (test_http.HttpTests.test_bad_payload_is_rejected) ... ok
+test_host_check_rejects_rebinding (test_http.HttpTests.test_host_check_rejects_rebinding) ... ok
+test_mutation_requires_origin (test_http.HttpTests.test_mutation_requires_origin) ... ok
+test_plan_needs_a_model (test_http.HttpTests.test_plan_needs_a_model) ... ok
+test_scan_is_read_only (test_http.HttpTests.test_scan_is_read_only) ... ok
+test_state_and_content_policy (test_http.HttpTests.test_state_and_content_policy) ... ok
+test_static_path_is_allowlisted (test_http.HttpTests.test_static_path_is_allowlisted) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 1.006s
+
+OK
